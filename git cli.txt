@@ -1,0 +1,46 @@
+generate ssh key command:
+ssh-keygen -t ed25519 -C "your_email@example.com"
+==============================================
+
+ssh key location on windows: c:\user\user_name\.ssh
+==============================================
+
+config: 
+git config --global user.name "name"
+git config --global user.email email
+
+
+==============================================
+git init
+git add . 
+git commit -m "your commit here"
+
+add & commit : git commit -am "your commit here"
+
+git add remote ssh@github.com:username/repositoryname.git
+git branch -M main
+git push origin main
+
+==============================================
+
+branch : git branch "name"
+
+check branch: git branch --list
+
+switch : git checkout "name"
+
+switch and create branch: git checkout -b "name"
+
+merge: 
+git merge "name"
+git add .
+git commit -m ""
+git push
+
+delete : git branch -d "name"
+
+fetch : git fetch origin
+
+revert: git revert "commit code"
+
+git revert HEAD ~NUMBER
